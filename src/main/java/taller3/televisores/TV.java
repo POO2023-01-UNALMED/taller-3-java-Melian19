@@ -12,6 +12,7 @@ public class TV {
 	public TV(Marca brand, boolean status) {
 		marca = brand;
 		estado = status;
+		numTV++;
 	}
 	
 	//get & set methods
